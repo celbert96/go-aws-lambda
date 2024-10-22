@@ -40,5 +40,5 @@ terraform-validate:
 terraform-apply: build-lambda
 	terraform -chdir=terraform apply
 
-terraform-destory:
+terraform-destroy:
 	terraform -chdir=terraform destroy
